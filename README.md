@@ -10,6 +10,7 @@
   </a>
 </div>
 
+<!-- ======================= PROFILE VIEWS + FOLLOW ======================= -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=TrishaAdio&label=Profile%20views&color=8E2DE2&style=flat" alt="profile views" />
   <a href="https://github.com/TrishaAdio?tab=followers">
@@ -17,9 +18,12 @@
   </a>
 </div>
 
+<br/>
+
+<!-- ======================= ABOUT ME ======================= -->
 ## 👋 About Me
 
-'''python
+```python
 class TrishaAdio:
     def __init__(self):
         self.role      = "Backend & Bot Developer"
@@ -30,17 +34,81 @@ class TrishaAdio:
     def say_hi(self):
         print("Thanks for stopping by — let's build something great!")
 
+
 me = TrishaAdio()
 me.say_hi()
-'''
+```
 
+- 🔭 I build **Telegram bots** and the backend services that power them
+- 🧠 Tinkering with **text-to-speech** and small **ML models**
+- 🛠️ I like to **self-host** — reverse proxies, image hosts, the whole stack
+- ⚡ Fun fact: most of my repos run in production, not just on my laptop
+
+<br/>
+
+<!-- ======================= TECH STACK ======================= -->
 ## 🧰 Tech Stack
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,fastapi,flask,nodejs,postgres,sqlite,redis,docker,linux,nginx,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,js,fastapi,flask,nodejs,postgres,sqlite,redis,docker,linux,nginx,git,github,vscode&theme=dark" alt="tech stack" />
 </div>
 
-## ▪ GitHub Stats
-(stats + top-langs + streak cards — tokyonight theme)
+<br/>
 
-## 🏆 Trophies / 📈 Contribution Graph / 🐍 Snake animation
-## 🤝 Connect (Telegram + GitHub badges) + waving footer
+<!-- ======================= GITHUB STATS ======================= -->
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TrishaAdio&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8E2DE2&icon_color=8E2DE2" alt="stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TrishaAdio&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8E2DE2" alt="top langs" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=TrishaAdio&theme=tokyonight&hide_border=true&background=0D1117&ring=8E2DE2&fire=8E2DE2&currStreakLabel=8E2DE2" alt="streak" />
+</div>
+
+<br/>
+
+<!-- ======================= TROPHIES ======================= -->
+## 🏆 Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=TrishaAdio&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
+</div>
+
+<br/>
+
+<!-- ======================= ACTIVITY GRAPH ======================= -->
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TrishaAdio&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8E2DE2&line=8E2DE2&point=ffffff" alt="activity graph" />
+</div>
+
+<!-- ======================= SNAKE ANIMATION ======================= -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TrishaAdio/TrishaAdio/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+<br/>
+
+<!-- ======================= CONNECT ======================= -->
+## 🤝 Connect With Me
+
+<div align="center">
+  <a href="https://t.me/TrishaAdio">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" />
+  </a>
+  <a href="https://github.com/TrishaAdio">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
+  </a>
+</div>
+
+<br/>
+
+<!-- ======================= FOOTER ======================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer" alt="footer"/>
+
+<div align="center">
+  <sub>⭐ From <a href="https://github.com/TrishaAdio">TrishaAdio</a> — thanks for visiting!</sub>
+</div>
