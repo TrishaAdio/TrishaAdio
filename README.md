@@ -1,114 +1,143 @@
-<!-- ======================= HEADER ======================= -->
-<a href="https://github.com/TrishaAdio">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=200&section=header&text=Trisha%20Adio&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20Dev%20%E2%80%A2%20Bot%20Builder%20%E2%80%A2%20ML%20Tinkerer&descSize=18&descAlignY=60" alt="header"/>
-</a>
+<!--
+  Profile README for @TrishaAdio
+  - Artwork in assets/ is generated from profile.config.json:  node scripts/build.mjs static
+  - stats.svg and the contribution snake are rebuilt twice a day by .github/workflows/profile.yml
+    and published to the `output` branch.
+-->
 
-<!-- ======================= TYPING SVG ======================= -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8E2DE2&center=true&vCenter=true&width=650&lines=Building+Telegram+bots+that+actually+scale;Turning+Python+into+production+services;Playing+with+TTS+%26+ML+models;Self-hosting+everything+I+can" alt="Typing SVG" />
-  </a>
-</div>
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Trisha Adio: Python dev, bot builder, ML tinkerer. A ghost in headphones bobs to lo-fi beats while a terminal types: building Telegram bots that actually scale, turning Python into production services, playing with TTS and ML models, self-hosting everything I can.">
+</p>
 
-<!-- ======================= PROFILE VIEWS + FOLLOW ======================= -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=TrishaAdio&label=Profile%20views&color=8E2DE2&style=flat" alt="profile views" />
-  <a href="https://github.com/TrishaAdio?tab=followers">
-    <img src="https://img.shields.io/github/followers/TrishaAdio?label=Followers&style=flat&color=4A00E0" alt="followers" />
-  </a>
-</div>
+<p align="center">
+  <a href="https://t.me/TrishaAdio"><img src="https://img.shields.io/badge/telegram-%40TrishaAdio-22d3ee?style=flat-square&logo=telegram&logoColor=white&labelColor=14121f" alt="Telegram: @TrishaAdio"></a>
+  <a href="https://github.com/TrishaAdio?tab=repositories"><img src="https://img.shields.io/badge/browse-all_repos-a855f7?style=flat-square&logo=github&logoColor=white&labelColor=14121f" alt="Browse all repositories"></a>
+  <img src="https://komarev.com/ghpvc/?username=TrishaAdio&label=profile%20views&color=f472b6&style=flat-square" alt="Profile views">
+</p>
 
-<br/>
+<br>
 
-<!-- ======================= ABOUT ME ======================= -->
-## 👋 About Me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-about-dark.svg">
+  <img src="assets/title-about-light.svg" width="100%" alt="01 / About: Bots, backends & tiny ML things.">
+</picture>
+
+I build **Telegram bots** and the backend services that power them, tinker with **text-to-speech and small ML models**, and **self-host** whatever I can: reverse proxies, image hosts, the whole stack. Most of my repos run in production, not just on my laptop.
 
 ```python
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
 class TrishaAdio:
-    def __init__(self):
-        self.role      = "Backend & Bot Developer"
-        self.language  = ["Python", "JavaScript"]
-        self.focus     = ["Telegram bots", "TTS / ML models", "Self-hosted services"]
-        self.currently = "Shipping premium bots & scaling infra"
+    role: str = "Backend & bot developer"
+    speaks: tuple = ("Python", "JavaScript", "TypeScript")
+    builds: tuple = ("Telegram bots", "TTS / ML models", "self-hosted services")
+    side_quests: tuple = ("Minecraft mods", "3D web toys", "desktop apps")
+    currently: str = "Shipping premium bots & scaling infra"
 
-    def say_hi(self):
-        print("Thanks for stopping by — let's build something great!")
+    def say_hi(self) -> str:
+        return "Thanks for stopping by. Let's build something great!"
 
 
-me = TrishaAdio()
-me.say_hi()
+print(TrishaAdio().say_hi())
 ```
 
-- 🔭 I build **Telegram bots** and the backend services that power them
-- 🧠 Tinkering with **text-to-speech** and small **ML models**
-- 🛠️ I like to **self-host** — reverse proxies, image hosts, the whole stack
-- ⚡ Fun fact: most of my repos run in production, not just on my laptop
+<br>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-stack-dark.svg">
+  <img src="assets/title-stack-light.svg" width="100%" alt="02 / Stack: Tools I reach for.">
+</picture>
 
-<!-- ======================= TECH STACK ======================= -->
-## 🧰 Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,fastapi,flask,postgres,sqlite,redis&theme=dark" alt="Python, JavaScript, TypeScript, Node.js, FastAPI, Flask, PostgreSQL, SQLite, Redis"><br>
+  <img src="https://skillicons.dev/icons?i=docker,linux,nginx,bash,go,java,kotlin,react,threejs&theme=dark" alt="Docker, Linux, Nginx, Bash, Go, Java, Kotlin, React, Three.js"><br>
+  <img src="https://skillicons.dev/icons?i=vite,tailwind,tauri,html,git,github,vscode&theme=dark" alt="Vite, Tailwind CSS, Tauri, HTML, Git, GitHub, VS Code">
+</p>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,fastapi,flask,nodejs,postgres,sqlite,redis,docker,linux,nginx,git,github,vscode&theme=dark" alt="tech stack" />
-</div>
+<br>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-featured-dark.svg">
+  <img src="assets/title-featured-light.svg" width="100%" alt="03 / Featured: Things I've shipped.">
+</picture>
 
-<!-- ======================= GITHUB STATS ======================= -->
-## 📊 GitHub Stats
+<p align="center">
+  <a href="https://github.com/TrishaAdio/Music"><img src="assets/card-rioera.svg" width="49%" alt="RioEra, a Telegram music bot: streams music into group voice chats, with several audio sources tried in turn so one outage can't stop it."></a>
+  <a href="https://github.com/TrishaAdio/channelguard"><img src="assets/card-channelguard.svg" width="49%" alt="ChannelGuard, a Telegram admin bot: add it as an admin and it sets itself up, with approval-only invite links, join requests and templates from your DM."></a>
+  <a href="https://github.com/TrishaAdio/TtsModel"><img src="assets/card-voice.svg" width="49%" alt="Voice model training: fine-tunes a natural GPT-SoVITS voice from your own clips, then serves it over an API."></a>
+  <a href="https://github.com/TrishaAdio/SiteDNA"><img src="assets/card-sitedna.svg" width="49%" alt="SiteDNA: give it a landing page URL and get a ZIP of every colour, font, shadow and animation, plus design tokens."></a>
+  <a href="https://github.com/TrishaAdio/5seconds"><img src="assets/card-fiveseconds.svg" width="49%" alt="Five Seconds, a 3D web experience: press space and time stops for five seconds on a rain-soaked neon street."></a>
+  <a href="https://github.com/TrishaAdio/TrishaPlayer"><img src="assets/card-trishaplayer.svg" width="49%" alt="TrishaPlayer: an autonomous Minecraft player that joins your server and plays."></a>
+</p>
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TrishaAdio&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8E2DE2&icon_color=8E2DE2" alt="stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TrishaAdio&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8E2DE2" alt="top langs" />
-</div>
+<details>
+<summary><b>More projects, by category</b></summary>
+<br>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=TrishaAdio&theme=tokyonight&hide_border=true&background=0D1117&ring=8E2DE2&fire=8E2DE2&currStreakLabel=8E2DE2" alt="streak" />
-</div>
+**Telegram bots & userbots**
+- [NewEra](https://github.com/TrishaAdio/NewEraMusic): group-call music bot with a TypeScript control plane and a Go audio sidecar
+- [QuickReply](https://github.com/TrishaAdio/quickreply): userbot for quick replies, away messages, payment logs and account backups
+- [Saviour](https://github.com/TrishaAdio/Saviour): keeps a channel post pointing at a backup channel that's actually alive
+- [Req](https://github.com/TrishaAdio/Req): welcomes every join request with your saved post, then broadcasts to that audience
+- [Recycle](https://github.com/TrishaAdio/Recycle): anti-spam userbot that bans spammers and locks groups down on command
+- [vidpack](https://github.com/TrishaAdio/vision): turns a video into a timeline, transcript and keyframe sheets a chat model can read
+- [Aura Image Bot](https://github.com/TrishaAdio/Image): photo enhancement and effects, right inside Telegram
+- [Emoji Pack Exporter](https://github.com/TrishaAdio/emoji): exports a whole custom emoji pack as AI-readable Markdown and JSON
 
-<br/>
+**Minecraft**
+- [Pegasus](https://github.com/TrishaAdio/Pegasus): tameable winged horses and unicorns for Java 1.21.1, with Paper and Fabric builds
+- [Rasengan](https://github.com/TrishaAdio/Rasengan): server-authoritative charged energy sphere with a power-bar HUD
+- [mc-builder-bots](https://github.com/TrishaAdio/Builder): a swarm of bots that builds the schematics you upload through Telegram
 
-<!-- ======================= TROPHIES ======================= -->
-## 🏆 Trophies
+**Desktop & web**
+- [CrystalChess](https://github.com/TrishaAdio/ChessSrc): glassy Windows chess client with Stockfish analysis, built on Tauri 2 and React 19
+- [RuthlessChess](https://github.com/TrishaAdio/lola): full-strength Stockfish NNUE in the browser that never offers a draw
+- [GlassPrint](https://github.com/TrishaAdio/printer): batch printing companion for Windows with a translucent glass UI
+- [TileCraft](https://github.com/TrishaAdio/halftone): splits one image into paper tiles for a wall-sized poster, entirely in the browser
+- [গ্যাসের অদৃশ্য জগৎ](https://github.com/TrishaAdio/gas): 3D, scroll-driven Bangla lessons on the gas laws for classes 8 to 12
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=TrishaAdio&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="trophies" />
-</div>
+**Tools, AI & infra**
+- [kalam](https://github.com/TrishaAdio/illustrations): turns photos into pen-and-ink plates in the style of Satyajit Ray's illustrations
+- [Shift](https://github.com/TrishaAdio/VpsShifter): moves bots, sites, APIs and databases to a new VPS, and rolls back if anything fails
+- [kiro-runner](https://github.com/TrishaAdio/vpsmcp): config-driven runner that lets an AI agent use your VPS for installs, tests and builds
+- [GitHub MCP](https://github.com/TrishaAdio/Github-Power): MCP server that lets an AI push code and open PRs while your token stays local
+- [RioApis](https://github.com/TrishaAdio/api): OpenAI-compatible API on top of the Kiro CLI, with API keys and spend tracking
+- [TrishaOS](https://github.com/TrishaAdio/TrishaOs): Yor Forger themed environment layer for Ubuntu 24.04
+- [Anime Details API](https://github.com/TrishaAdio/anime): everything about an anime in one call, from open data sources
 
-<br/>
+</details>
 
-<!-- ======================= ACTIVITY GRAPH ======================= -->
-## 📈 Contribution Graph
+<br>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TrishaAdio&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8E2DE2&line=8E2DE2&point=ffffff" alt="activity graph" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-stats-dark.svg">
+  <img src="assets/title-stats-light.svg" width="100%" alt="04 / Stats: The aura, in numbers.">
+</picture>
 
-<!-- ======================= SNAKE ANIMATION ======================= -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/TrishaAdio/TrishaAdio/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TrishaAdio/TrishaAdio/output/stats.svg" width="100%" alt="GitHub stats for @TrishaAdio: contributions, streaks, active days, top languages and a weekly contribution chart, rebuilt twice a day.">
+</p>
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TrishaAdio/TrishaAdio/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/TrishaAdio/TrishaAdio/output/github-contribution-grid-snake.svg" width="100%" alt="A snake eating the contribution graph">
+</picture>
 
-<!-- ======================= CONNECT ======================= -->
-## 🤝 Connect With Me
+<br>
 
-<div align="center">
-  <a href="https://t.me/TrishaAdio">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram" />
-  </a>
-  <a href="https://github.com/TrishaAdio">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
-  </a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/title-connect-dark.svg">
+  <img src="assets/title-connect-light.svg" width="100%" alt="05 / Say hi: Let's build something.">
+</picture>
 
-<br/>
+Telegram is the fastest way to reach me.
 
-<!-- ======================= FOOTER ======================= -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer" alt="footer"/>
+<p align="center">
+  <a href="https://t.me/TrishaAdio"><img src="https://img.shields.io/badge/Message_me_on_Telegram-22d3ee?style=for-the-badge&logo=telegram&logoColor=white" alt="Message me on Telegram"></a>
+</p>
 
-<div align="center">
-  <sub>⭐ From <a href="https://github.com/TrishaAdio">TrishaAdio</a> — thanks for visiting!</sub>
-</div>
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="A ghost waves goodbye. Thanks for stopping by, see you in the commits.">
+</p>
