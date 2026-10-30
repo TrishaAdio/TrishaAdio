@@ -1,0 +1,54 @@
+{
+  "user": "TrishaAdio",
+  "name": ["Trisha", "Adio"],
+  "eyebrow": "HELLO, WORLD — I'M",
+  "tagline": "Python dev · bot builder · ML tinkerer",
+  "typing": [
+    "Building Telegram bots that actually scale",
+    "Turning Python into production services",
+    "Playing with TTS & ML models",
+    "Self-hosting everything I can",
+    "Shipping Minecraft mods & 3D web toys"
+  ],
+  "chips": ["Telegram bots", "Python services", "TTS / ML", "Minecraft", "3D web"],
+  "nowPlaying": "lo-fi beats to ship bots to",
+  "sections": {
+    "about":    { "kicker": "01 / ABOUT",    "title": [{ "t": "Bots, backends & " }, { "t": "tiny ML things.", "accent": true }] },
+    "stack":    { "kicker": "02 / STACK",    "title": [{ "t": "Tools I " }, { "t": "reach for.", "accent": true }] },
+    "featured": { "kicker": "03 / FEATURED", "title": [{ "t": "Things I've " }, { "t": "shipped.", "accent": true }] },
+    "stats":    { "kicker": "04 / STATS",    "title": [{ "t": "The " }, { "t": "aura", "accent": true }, { "t": ", in numbers." }] },
+    "connect":  { "kicker": "05 / SAY HI",   "title": [{ "t": "Let's " }, { "t": "build", "accent": true }, { "t": " something." }] }
+  },
+  "projects": [
+    {
+      "id": "rioera", "repo": "Music", "title": "RioEra", "category": "Telegram music bot",
+      "accent": "violet", "lang": "Python", "tags": ["voice chats", "no cookies"],
+      "desc": ["Streams music into group voice chats. Audio comes from", "several sources in turn, so one outage can't stop it."]
+    },
+    {
+      "id": "channelguard", "repo": "channelguard", "title": "ChannelGuard", "category": "Telegram admin bot",
+      "accent": "cyan", "lang": "Python", "tags": ["aiogram", "SQLite"],
+      "desc": ["Add it as an admin and it sets itself up: approval-only", "invite links, join requests and templates from your DM."]
+    },
+    {
+      "id": "voice", "repo": "TtsModel", "title": "Voice model training", "category": "TTS / ML",
+      "accent": "pink", "lang": "Python", "tags": ["GPT-SoVITS", "GPU VPS"],
+      "desc": ["Fine-tunes a natural GPT-SoVITS voice from your own", "clips, then serves it over an API your AI can call."]
+    },
+    {
+      "id": "sitedna", "repo": "SiteDNA", "title": "SiteDNA", "category": "Design tool",
+      "accent": "amber", "lang": "Python", "tags": ["desktop app", "CLI"],
+      "desc": ["Give it a landing page URL. Get a ZIP of every colour,", "font, shadow and animation, plus design tokens."]
+    },
+    {
+      "id": "fiveseconds", "repo": "5seconds", "title": "Five Seconds", "category": "3D web experience",
+      "accent": "mint", "lang": "JavaScript", "tags": ["Three.js", "Web Audio"],
+      "desc": ["Press space and time stops for five seconds on a", "rain-soaked neon street. Everything is procedural."]
+    },
+    {
+      "id": "trishaplayer", "repo": "TrishaPlayer", "title": "TrishaPlayer", "category": "Minecraft AI",
+      "accent": "indigo", "lang": "JavaScript", "tags": ["Minecraft 1.21"],
+      "desc": ["An autonomous Minecraft player that joins your", "server and plays. A player, not a chatbot."]
+    }
+  ]
+}
